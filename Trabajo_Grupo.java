@@ -54,7 +54,42 @@ public class Trabajo_Grupo {
                 if (numeroUno < numeroDos && numeroUno < numeroTres && numeroUno < numeroCuatro && numeroUno < numeroCinco) {
 			e = numeroUno;
 		}
+	         
+                //*numero dos*
                 
+                if (numeroDos > numeroUno && numeroDos > numeroTres && numeroDos > numeroCuatro && numeroDos > numeroCinco) {
+			a = numeroDos;
+		}
+                if (numeroDos < numeroUno && numeroDos > numeroTres && numeroDos > numeroCuatro && numeroDos > numeroCinco) {
+			b = numeroDos;
+		}
+                if (numeroDos < numeroUno && numeroDos < numeroTres && numeroDos > numeroCuatro && numeroDos > numeroCinco) {
+			c = numeroDos;
+		}
+                if (numeroDos < numeroUno && numeroDos < numeroTres && numeroDos < numeroCuatro && numeroDos > numeroCinco) {
+			d = numeroDos;
+		}
+                if (numeroDos < numeroUno && numeroDos < numeroTres && numeroDos < numeroCuatro && numeroDos < numeroCinco) {
+			e = numeroDos;
+		}
+	    
+                //*numero tres*
+                
+                if (numeroTres > numeroUno && numeroTres > numeroDos && numeroTres > numeroCuatro && numeroTres > numeroCinco) {
+			a = numeroTres;
+		}
+                if (numeroTres < numeroUno && numeroTres > numeroDos && numeroTres > numeroCuatro && numeroTres > numeroCinco) {
+			b = numeroTres;
+		}
+                if (numeroTres < numeroUno && numeroTres < numeroDos && numeroTres > numeroCuatro && numeroTres > numeroCinco) {
+			c = numeroTres;
+		}
+                if (numeroTres < numeroUno && numeroTres < numeroDos && numeroTres < numeroCuatro && numeroTres > numeroCinco) {
+			d = numeroTres;
+		}
+                if (numeroTres < numeroUno && numeroTres < numeroDos && numeroTres < numeroCuatro && numeroTres < numeroCinco) {
+			e = numeroTres;
+		}
 	        //*numero cuatro*
                 
                 if (numeroCuatro > numeroUno && numeroCuatro > numeroDos && numeroCuatro > numeroTres && numeroCuatro > numeroCinco) {
