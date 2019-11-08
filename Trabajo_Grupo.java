@@ -56,8 +56,8 @@ public class Trabajo_Grupo {
 		}
                 
                 
-                System.out.print(" " + a + " " + b + " " + c + " " + d + " " + e);  
-                
+	    
+	    
 }
 }
     
