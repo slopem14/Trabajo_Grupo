@@ -55,6 +55,43 @@ public class Trabajo_Grupo {
 			e = numeroUno;
 		}
                 
+	        //*numero cuatro*
+                
+                if (numeroCuatro > numeroUno && numeroCuatro > numeroDos && numeroCuatro > numeroTres && numeroCuatro > numeroCinco) {
+			a = numeroCuatro;
+                }        
+                if (numeroCuatro < numeroUno && numeroCuatro > numeroDos && numeroCuatro > numeroTres && numeroCuatro > numeroCinco) {
+			b = numeroCuatro;
+                }        
+                if (numeroCuatro < numeroUno && numeroCuatro < numeroDos && numeroCuatro > numeroTres && numeroCuatro > numeroCinco) {
+			c = numeroCuatro;
+                }        
+                if (numeroCuatro < numeroUno && numeroCuatro < numeroDos && numeroCuatro < numeroTres && numeroCuatro > numeroCinco) {
+			d = numeroCuatro;
+                }        
+                if (numeroCuatro < numeroUno && numeroCuatro < numeroDos && numeroCuatro < numeroTres && numeroCuatro < numeroCinco) {
+			e = numeroCuatro;              
+		}
+                
+                 //*numero cinco*
+                
+                if (numeroCinco > numeroUno && numeroCinco > numeroDos && numeroCinco > numeroTres && numeroCinco > numeroCuatro) {
+			a = numeroCinco;
+                }        
+                if (numeroCinco < numeroUno && numeroCinco > numeroDos && numeroCinco > numeroTres && numeroCinco > numeroCuatro) {
+			b = numeroCinco;
+                }        
+                if (numeroCinco < numeroUno && numeroCinco < numeroDos && numeroCinco > numeroTres && numeroCinco > numeroCuatro) {
+			c = numeroCinco;        
+                }        
+                if (numeroCinco < numeroUno && numeroCinco < numeroDos && numeroCinco < numeroTres && numeroCinco > numeroCuatro) {
+			d = numeroCinco;
+                }        
+                if (numeroCinco < numeroUno && numeroCinco < numeroDos && numeroCinco < numeroTres && numeroCinco < numeroCuatro) {
+			e = numeroCinco;
+                }
+                
+                System.out.print(" " + a + " " + b + " " + c + " " + d + " " + e); 
                 
 	    
 	    
